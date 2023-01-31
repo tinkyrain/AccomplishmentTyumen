@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    font-size: $aTextSize;
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
