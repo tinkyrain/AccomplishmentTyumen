@@ -1,16 +1,16 @@
 nav{
     width: 100%;
-    height: 100px;
+    height: $navbarHeight;
 
     display: flex;
 
     justify-content: space-around;
     align-items: center;
 
-    padding: 20px 0;
+    background: rgba($color: #000000, $alpha: 0.5);
 
     li{
-        padding: 0 50px;
+        padding: $paddingNavText;
 
         a:hover{
             border-bottom: 2px solid green;

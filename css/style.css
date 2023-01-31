@@ -21,14 +21,14 @@ li {
 
 nav {
   width: 100%;
-  height: 100px;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 nav li {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 nav li a:hover {
   border-bottom: 2px solid green;
@@ -42,7 +42,34 @@ nav li a:hover {
 header {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+.section-text {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-text h1 {
+  display: block;
+  width: 700px;
+  height: 150px;
+  border: 4px solid white;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
