@@ -3,10 +3,8 @@ window.onload = function () {
 
     window.setTimeout(function () {
       document.body.classList.add('loaded');
-
-      animated.onanimationend = () => {
-        document.body.classList.remove('loaded_hiding');
-      };
-
-    }, 10);
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
 }
+
+ScrollReveal().reveal('.AboutUs__block', { delay: 400 });

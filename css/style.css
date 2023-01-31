@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -131,6 +132,48 @@ video {
 
 .loaded .preloader {
   display: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+main h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.AboutUs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AboutUs__block {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUs__block .circle {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 5px solid green;
+  background: rgb(246, 245, 245);
+  color: green;
+  font-size: 60px;
+}
+.AboutUs__block h2 {
+  padding-top: 50px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
