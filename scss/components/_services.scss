@@ -23,7 +23,7 @@
         width: 420px;
         height: 600px;
 
-        box-shadow: 5px 5px 30px #aaa;
+        box-shadow: 5px 5px 50px #aaa;
 
         transition: all 0.2s ease;
 
@@ -46,15 +46,11 @@
 
         background-size: auto;
 
-        filter: grayscale(1);
-
         transition: all 0.2s ease;
     }
 
     &__block:hover{
         color: green;
-        .services__picture{
-            filter: grayscale(0);
-        }
+        transform: scale(1.05);
     }
 }
