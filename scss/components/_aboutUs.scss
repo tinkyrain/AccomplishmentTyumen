@@ -3,6 +3,33 @@
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
+
+    h1{
+        padding-top: 30px;
+        color: green;
+    }
+}
+
+.AboutUs__rowFirst{
+    width: 100%;
+
+    padding-top: 90px;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AboutUs__rowSecond{
+    width: 100%;
+
+    padding-top: 100px;
+
+    display: flex;
+
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -11,6 +38,7 @@
     height: auto;
 
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
