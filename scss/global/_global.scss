@@ -6,6 +6,10 @@
     scroll-behavior: smooth ;
 }
 
+body{
+    min-width: 1170px;
+}
+
 a{
     font-size: $aTextSize;
     text-decoration: none;

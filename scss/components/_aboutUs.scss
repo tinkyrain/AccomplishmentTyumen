@@ -4,17 +4,15 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
     h1{
-        padding-top: 30px;
         color: green;
     }
 }
 
 .AboutUs__rowFirst{
     width: 100%;
-
-    padding-top: 90px;
 
     display: flex;
 
@@ -24,8 +22,6 @@
 
 .AboutUs__rowSecond{
     width: 100%;
-
-    padding-top: 100px;
 
     display: flex;
 
@@ -62,7 +58,7 @@
     }
 
     h2{
-        padding-top: 50px;
+        padding-top: 30px;
         text-align: center;
     }
 }
