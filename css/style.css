@@ -198,4 +198,48 @@ main h1 {
   text-align: center;
 }
 
+.services {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services h1 {
+  color: green;
+}
+.services__block-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.services__block {
+  width: 420px;
+  height: 600px;
+  box-shadow: 5px 5px 30px #aaa;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.services__block h2 {
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services__picture {
+  width: 100%;
+  height: 500px;
+  background-size: auto;
+  filter: grayscale(1);
+  transition: all 0.2s ease;
+}
+.services__block:hover {
+  color: green;
+}
+.services__block:hover .services__picture {
+  filter: grayscale(0);
+}
+
 /*# sourceMappingURL=style.css.map */
