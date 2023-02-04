@@ -4,6 +4,11 @@
 
     display: flex;
     flex-direction: column;
+
+    h1{
+        border: 3px solid green;
+        color: green;
+    }
 }
 
 .AboutUs__rowFirst{
@@ -40,8 +45,8 @@
     align-items: center;
 
     .circle{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
 
         margin: 0 auto;
 

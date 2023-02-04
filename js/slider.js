@@ -1,5 +1,5 @@
 const swiper = new Swiper('.swiper', {
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
 
     autoplay: {

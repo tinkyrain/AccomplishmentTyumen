@@ -43,7 +43,7 @@
                     <a href="#slider-section">Отзывы</a>
                 </li>
                 <li>
-                    <a href="#">Заказать</a>
+                    <a href="#order-section">Заказать</a>
                 </li>
             </ul>
         </nav>
@@ -88,32 +88,32 @@
         <section class='services' id="services">
             <h1>Наши услуги</h1>
             <section class="services__block-section">
-                <div class="services__block">
+                <a class="services__block" href="#order-section">
                     <img src="img/bruschatka.jpg" alt="bruschatka" class="services__picture">
                     <h2>Укладка брусчатки</h2>
-                </div>
-                <div class="services__block">
+                </a>
+                <a class="services__block" href="#order-section">
                     <img src="img/asfalt.jpg" alt="bruschatka" class="services__picture">
                     <h2>Асфальтирование</h2>
-                </div>
-                <div class="services__block">
+                </a>
+                <a class="services__block" href="#order-section">
                     <img src="img/bordur.jpg" alt="bruschatka" class="services__picture">
                     <h2>Установка бордюра</h2>
-                </div>
+                </a>
             </section>
             <section class="services__block-section">
-                <div class="services__block">
+                <a class="services__block" href="#order-section">
                     <img src="img/bruschatka.jpg" alt="bruschatka" class="services__picture">
                     <h2>Установка водоотводных систем</h2>
-                </div>
-                <div class="services__block">
+                </a>
+                <a class="services__block" href="#order-section">
                     <img src="img/asfalt.jpg" alt="bruschatka" class="services__picture">
                     <h2>Демонтаж старого покрытия</h2>
-                </div>
-                <div class="services__block">
+                </a>
+                <a class="services__block" href="#order-section">
                     <img src="img/bordur.jpg" alt="bruschatka" class="services__picture">
                     <h2>Посадка деревьев</h2>
-                </div>
+                </a>
             </section>
         </section>
 
@@ -124,38 +124,36 @@
 
             <!-- Строка с товаром -->
             <section class="Product__block-section">
-                <div class="Product__block">
+                <a class="Product__block" href="#order-section">
                     <img src="img/bruschatka_product.jpg" alt="photo_Product" class="services__picture">
                     <h2>Брусчатка</h2>
-                </div>
-                <div class="Product__block">
+                </a>
+                <a class="Product__block" href="#order-section">
                     <img src="img/dust.jpg" alt="photo_Product" class="services__picture">
                     <h2>Песок</h2>
-                </div>
-                <div class="Product__block">
+                </a>
+                <a class="Product__block" href="#order-section">
                     <img src="img/cheben.jpg" alt="photo_Product" class="services__picture">
                     <h2>Щебень</h2>
-                </div>
+                </a>
             </section>
             <!---->
 
             <section class="Product__block-section">
-                <div class="Product__block">
+                <a class="Product__block" href="#order-section">
                     <img src="img/old_city.jpg" alt="photo_Product" class="services__picture">
                     <h2>Старый город</h2>
-                </div>
-                <div class="Product__block">
+                </a>
+                <a class="Product__block" href="#order-section">
                     <img src="img/bordur_service.jpg" alt="photo_Product" class="services__picture">
                     <h2>Бордюр тротуарный</h2>
-                </div>
-                <div class="Product__block">
+                </a>
+                <a class="Product__block" href="#order-section">
                     <img src="img/bordur_road.jpg" alt="photo_Product" class="services__picture">
                     <h2>Бордюр дорожный</h2>
-                </div>
+                </a>
             </section>
         </section>
-
-        <!--Блок с Отзывами-->
         
         <!-- Slider main container -->
         <section class="slider-section" id="slider-section">
@@ -183,8 +181,27 @@
             </div>  
         </section>
 
+        <!--Заказать-->
+        <section id="order-section">
+            <div class="order-form">
+                <h1>Заказать</h1>
+                <form>
+                    <input type="text" id="firstName" placeholder="Имя">
+                    <input type="text" id="secondName" placeholder="Фамилия">
+                    <input type="text" id="phoneNumber" placeholder="Номер телефона">
+                    <button>Заказать</button>
+                </form>
+            </div>
+            <div class="order-text">
+                <p>
+                    <span style="color: green;"><i>Благоустройство-Тюмень</i></span> - это надёжная комания, 
+                    которая выполняет свои работы по самым дружелюбным ценам и
+                    в срок. Обращаясь к нашей компании мы можем <i>100%</i> гарантировать,
+                    что наш клиент останется доволен нашей работой! 
+                </p>
+            </div>
+        </section>
     </main>
-
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
 </body>

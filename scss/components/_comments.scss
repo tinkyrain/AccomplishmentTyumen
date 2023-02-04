@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
 
+    background-color: rgb(79, 169, 79);
+
     .swiper-slide{
         display: flex;
 
@@ -17,17 +19,18 @@
         width: 70%;
         height: 300px;
     
-        --swiper-navigation-color: green;
+        --swiper-navigation-color: white;
     }
 
     h2{
         text-align: center;
-        color: green;
+        color: white;
         font-size: 50px;
     }
 
     p{ 
         text-align: center;
         font-size: 25px;
+        color: white;
     }
 }
