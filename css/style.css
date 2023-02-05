@@ -186,8 +186,8 @@ main h1 {
   align-items: center;
 }
 .AboutUs__block .circle {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -223,7 +223,7 @@ main h1 {
 }
 .services__block {
   display: block;
-  width: 420px;
+  width: 400px;
   height: 600px;
   background-color: white;
   box-shadow: 5px 5px 50px rgb(57, 120, 57);
@@ -270,7 +270,7 @@ main h1 {
 }
 .Product__block {
   display: block;
-  width: 420px;
+  width: 400px;
   height: 600px;
   box-shadow: 5px 5px 50px #aaa;
   transition: all 0.2s ease;

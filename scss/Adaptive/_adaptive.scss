@@ -1,0 +1,33 @@
+@media (max-width: 1200px) {
+    nav{
+        flex-direction: column;
+        height: $navbarHeight15vh;
+    }
+
+    .section-text{
+        height: $textHeaderHeightAdaptive;
+    }
+
+    .AboutUs__block{
+        .circle{
+            width: 180px;
+            height: 180px;
+
+            font-size: 50px;
+        }
+    }
+
+    .services{
+        &__block{
+            width: 220px;
+            height: 600px;
+        }
+    }
+
+    .Product{
+        &__block{
+            width: 220px;
+            height: 600px; 
+        }
+    }
+}
