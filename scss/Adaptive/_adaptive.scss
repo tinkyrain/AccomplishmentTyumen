@@ -236,6 +236,8 @@
     }
 
     .AboutUs__block{
+        width: 300px;
+
         .circle{
             width: 190px;
             height: 190px;
@@ -274,9 +276,6 @@
     }
 
     .AboutUs__block{
-
-        width: 300px;
-
         .circle{
             width: 150px;
             height: 150px;
@@ -299,6 +298,27 @@
     
         p{ 
             font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .services__block{
+        width: 280px;
+        margin-bottom: 50px;
+    }
+
+    .Product__block{
+        width: 280px;
+        margin-bottom: 50px;
+    }
+
+    .section-text{
+        h1{
+            width: 300px;
+            height: 60px;
+
+            font-size: 22px;
         }
     }
 }
