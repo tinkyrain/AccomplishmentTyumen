@@ -15,6 +15,7 @@
     <!--JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.2/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
 </head>
 <body>
     <!--Прелоадер-->
@@ -186,10 +187,10 @@
             <div class="order-form">
                 <h1>Заказать</h1>
                 <form>
-                    <input type="text" id="firstName" placeholder="Имя">
-                    <input type="text" id="secondName" placeholder="Фамилия">
-                    <input type="text" id="phoneNumber" placeholder="Номер телефона">
-                    <button>Заказать</button>
+                    <input type="text" id="firstName" required placeholder="Имя">
+                    <input type="text" id="secondName" required  placeholder="Фамилия">
+                    <input type="text" id="phoneNumber" required placeholder="Номер телефона">
+                    <button type="submit">Заказать</button>
                 </form>
             </div>
             <div class="order-text">
@@ -204,5 +205,6 @@
     </main>
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 </html>
