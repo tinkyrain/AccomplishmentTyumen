@@ -370,6 +370,7 @@ main h1 {
   color: green;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin-bottom: 50px;
 }
 #order-section button:hover {
   background-color: green;
