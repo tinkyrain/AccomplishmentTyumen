@@ -1,3 +1,20 @@
+@media (max-width: 1300px){
+    .services{
+        &__block{
+            width: 320px;
+            height: 600px;
+        }
+    }
+
+    .Product{
+        &__block{
+            width: 320px;
+            height: 600px; 
+        }
+    }
+}
+
+
 @media (max-width: 1200px) {
     nav{
         flex-direction: column;
@@ -16,22 +33,6 @@
             font-size: 50px;
         }
     }
-
-    .services{
-        &__block{
-            width: 320px;
-            height: 600px;
-        }
-    }
-
-    .Product{
-        &__block{
-            width: 320px;
-            height: 600px; 
-        }
-    }
-
-
 }
 
 @media (max-width: 1050px) {
