@@ -22,7 +22,7 @@
     }
 
     .section-text{
-        height: $textHeaderHeightAdaptive;
+        height: 85vh;
     }
 
     .AboutUs__block{
@@ -36,15 +36,6 @@
 }
 
 @media (max-width: 1050px) {
-    nav{
-        flex-direction: column;
-        height: $navbarHeight15vh;
-    }
-
-    .section-text{
-        height: $textHeaderHeightAdaptive;
-    }
-
     .AboutUs__block{
         .circle{
             width: 150px;
@@ -164,12 +155,11 @@
     }
 
     nav{
-        flex-direction: column;
-        height: $navbarHeight;
+        height: 10vh;
     }
 
     .section-text{
-        height: $textHeaderHeight;
+        height: 90vh;
     }
 
     .logo{

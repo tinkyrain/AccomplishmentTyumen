@@ -410,7 +410,7 @@ main h1 {
     height: 20vh;
   }
   .section-text {
-    height: 80vh;
+    height: 85vh;
   }
   .AboutUs__block .circle {
     width: 180px;
@@ -419,13 +419,6 @@ main h1 {
   }
 }
 @media (max-width: 1050px) {
-  nav {
-    flex-direction: column;
-    height: 20vh;
-  }
-  .section-text {
-    height: 80vh;
-  }
   .AboutUs__block .circle {
     width: 150px;
     height: 150px;
@@ -509,7 +502,6 @@ main h1 {
     display: none;
   }
   nav {
-    flex-direction: column;
     height: 10vh;
   }
   .section-text {
