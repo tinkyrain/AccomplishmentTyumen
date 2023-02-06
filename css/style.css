@@ -57,7 +57,7 @@ video {
 
 .section-text {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -513,7 +513,7 @@ main h1 {
     height: 10vh;
   }
   .section-text {
-    height: 85vh;
+    height: 90vh;
   }
   .logo {
     width: 300px;
