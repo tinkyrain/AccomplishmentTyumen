@@ -59,5 +59,8 @@
     &__block:hover{
         color: green;
         transform: scale(1.05);
+
+        outline: 7px solid green;
+        outline-offset: 0;
     }
 }

@@ -250,6 +250,8 @@ main h1 {
 .services__block:hover {
   color: green;
   transform: scale(1.05);
+  outline: 7px solid white;
+  outline-offset: 0;
 }
 
 .Product {
@@ -296,6 +298,8 @@ main h1 {
 .Product__block:hover {
   color: green;
   transform: scale(1.05);
+  outline: 7px solid green;
+  outline-offset: 0;
 }
 
 .slider-section {

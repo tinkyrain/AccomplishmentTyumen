@@ -63,5 +63,8 @@
     &__block:hover{
         color: green;
         transform: scale(1.05);
+
+        outline: 7px solid white;
+        outline-offset: 0;
     }
 }
