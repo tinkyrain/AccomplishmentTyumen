@@ -260,6 +260,15 @@
 }
 
 @media (max-width: 400px){
+    .section-text{
+        h1{
+            width: 330px;
+            height: 70px;
+
+            font-size: 25px;
+        }
+    }
+
     .services__block{
         width: 320px;
         margin-bottom: 50px;
