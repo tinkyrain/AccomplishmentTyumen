@@ -410,23 +410,17 @@ main h1 {
   font-size: 30px;
 }
 #order-section .order-form {
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-}
-#order-section .order-form form {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
 }
-#order-section .order-text {
-  width: 40%;
+#order-section .order-form form {
+  width: 65%;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -555,15 +549,6 @@ main h1 {
   }
   .slider-section p {
     font-size: 22px;
-  }
-  #order-section {
-    flex-direction: column;
-  }
-  #order-section .order-form {
-    width: 100%;
-  }
-  #order-section .order-text {
-    display: none;
   }
 }
 @media (max-width: 890px) {
